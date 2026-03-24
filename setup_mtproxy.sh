@@ -102,10 +102,7 @@ menu_install() {
 show_exit() {
     clear
     show_config
-    echo -e "\n${MAGENTA}💰 ПОДДЕРЖКА АВТОРА (CloudTips)${NC}"
-    qrencode -t ANSIUTF8 "$TIP_LINK"
-    echo -e "Донат: $TIP_LINK"
-    echo -e "YouTube: https://www.youtube.com/@antenkaru"
+    echo -e "\n${MAGENTA}Удачи!${NC}"
     exit 0
 }
 
@@ -115,7 +112,7 @@ install_deps
 show_promo # Промо теперь только один раз при старте
 
 while true; do
-    echo -e "\n${MAGENTA}=== GoTelegram Manager (by anten-ka) ===${NC}"
+    echo -e "\n${MAGENTA}=== Telegram Manager Mtproxy ===${NC}"
     echo -e "1) ${GREEN}Установить / Обновить прокси${NC}"
     echo -e "2) Показать данные подключения${NC}"
     echo -e "4) ${RED}Удалить прокси${NC}"
